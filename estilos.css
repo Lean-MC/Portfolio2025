@@ -273,7 +273,9 @@ h2 {
   justify-content: center;
   height: 100vh;
 }
-
+#contacto {
+  scroll-margin-top: 80px; /* Ajusta según la altura del navbar */
+}
 .contactame h2 {
   font-size: 2rem;
   margin-bottom: 20px;
@@ -455,7 +457,7 @@ h2 {
     flex-wrap: wrap;
   }
 
-  .presentacion{
+  #presentacion{
     margin-top: -20px;
     flex-direction: column;
   }
@@ -464,10 +466,11 @@ h2 {
     height: auto;
   }
 
- .contactame{
-  padding-top: 900px;
-  margin-bottom: 600px;
- }
+  .contactame{
+    padding-top: 800px;
+    margin-bottom: 650px;
+   }
+
 
  footer {
   color: white;
@@ -501,15 +504,14 @@ footer{
     height: auto;
   }
 
-  .presentacion{
+  #presentacion{
     margin-top: -20px;
     flex-direction: column;
-
   }
 
  .contactame{
-  padding-top: 900px;
-  margin-bottom: 600px;
+  padding-top: 800px;
+  margin-bottom: 650px;
  }
 
  footer {
